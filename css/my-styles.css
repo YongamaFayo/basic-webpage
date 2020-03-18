@@ -1,0 +1,104 @@
+img {
+    height: 200px;
+    width: 250px;
+    /* float: left; */
+}
+
+/* .right{
+    margin: 30px;float: right;
+}
+.left{
+    margin: 30px;float: left;
+} */
+
+body {
+    font-family: bookman old -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: lightblue;
+}
+
+.header {
+    background-color: lightsteelblue;
+    padding: 1em;
+    border: outset;
+    border-width: 10px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.historic-places {
+    display: flex;
+}
+
+.row {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.footer {
+    background-color: blueviolet;
+    padding: 1em;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+.historySec li {
+    list-style: none;
+    margin: 1em;
+    padding: 0em;
+}
+
+table, th, td {
+    border: 2px solid blue
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.add-margin {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.add-space{
+    padding: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.content{
+    width: 30%;
+    margin: 15px;
+}
+
+
+@media(max-width: 1155px) {
+    .historic-places{
+        display: grid;
+    }
+
+    .content{
+        width: 90%;
+        margin: 15px;
+    }
+
+    .one-left {
+        float: left;
+    }
+    
+}
